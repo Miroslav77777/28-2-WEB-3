@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <img src="image/logo.png" alt="Лого" class="logoimg">
+        <h1>Микрочелик</h1></div>
+    </header>
+    <nav>
+        <ul>
+            <a href="https://github.com/Miroslav77777" target="_blank">Ссылка на гитхаб</a>
+            <a href="https://t.me/Miroslavchik42" target="_blank">Ссылка на тг</a>
+            <a href="https://vk.com/strssituation" target="_blank">Ссылка на вк</a>
+        </ul>
+    </nav>
+    <main>
+
+        <table>
+            <tbody>
+                <tr>
+                    <th>Колонка 1</th>
+                    <th>Колонка 2</th>
+                    <th>Колонка 3</th>
+                    <th>Колонка 4</th> 
+                </tr>
+                <tr class = "nch">
+                    <td colspan="2">Ячейка 11 объединенная с 12</td>
+                    <th>Ячейка 13</th>
+                    <th>Ячейка 14</th>
+                </tr>
+                <tr class = "ch">
+                    <th>Ячейка 21</th>
+                    <th>Ячейка 22</th>
+                    <th>Ячейка 23</th>
+                    <th>Ячейка 24</th>
+                </tr>
+                <tr class = "nch">
+                    <th>Ячейка 31</th>
+                    <th>Ячейка 32</th>
+                    <th>Ячейка 33</th>
+                    <th>Ячейка 34</th>
+                </tr>
+                <tr class = "ch">
+                    <th>Ячейка 41</th>
+                    <th>Ячейка 42</th>
+                    <th>Ячейка 43</th>
+                    <th>Ячейка 44</th>
+                </tr>
+                <tr class = "nch">
+                    <th>Ячейка 51</th>
+                    <th>Ячейка 52</th>
+                    <th>Ячейка 53</th>
+                    <th>Ячейка 54</th>
+                </tr>
+                <tr class = "ch">
+                    <th>Ячейка 61</th>
+                    <th>Ячейка 62</th>
+                    <th>Ячейка 63</th>
+                    <th>Ячейка 64</th>
+                </tr>
+            </tbody>
+        </table>
+
+        <map name="rect">
+            <area shape="rect" coords="300,50,450,130" href="https://vk.com/strssituation" alt="">
+            <area shape="circle" coords="50,50,50" href="https://t.me/Miroslavchik42" alt="">
+            <area shape="circle" coords="250,170,40" href="https://i.pinimg.com/736x/34/af/e3/34afe3c48fb643cc975a23c6be12eb00.jpg" alt="">
+        </map>
+        
+        <div class="link-container">
+            <h1 class="spisok">Маркированный список ссылок:</h1>
+    
+        <ul>
+            <li><a href="http://kubsu.ru" target="_blank">КубГУ абсолютная ссылка</a></li>
+            <li><a href="https://kubsu.ru" target="_blank">КубГУ абсолютная ссылка в протоколе https</a></li>
+            <li><a href="https://kubsu.ru" target="_blank"><img id="image" src="image/image.jpg" alt="Картинка"></a></li>
+            <li><a href="./inside/inside.html">Сокращенная ссылка на внутреннюю страницу</a></li>
+            <li><a href="./index.html">Сокращенная ссылка на главную страницу</a></li>
+            <li><a href="#last_one">Ссылка на фрагмент текущей страницы</a></li>
+            <li><a href="./index.html?p1=1&p2=2&p3=3">Ссылка с 3-мя параметрами</a></li>
+            <li><a href="./index.html?id=8542">Ссылка с параметром id в url</a></li>
+            <li><a href="./this.html">Ссылка на страницу в текущем каталоге</a></li>
+            <li><a href="./about/about.html">Ссылка на страницу в каталоге about</a></li>
+            <li><a href="../">Относительная ссылка на страницу в каталоге уровнем выше текущего</a></li>
+            <li><a href="../../">Относительная ссылка на страницу двумя уровнями выше текущего</a></li>
+            <li>— Без обид, но я не работаю в команде.
+                — Да. Парень в бронированном костюме. А снять — кто ты без него?
+                <a href="https://a.d-cd.net/dKmg-rpuQXAqI4_fT3EZYfS8Ipc-1920.jpg">— Гений, миллиардер, плэйбой, филантроп.</a></li>
+            <li><a href="https://habr.com/ru/articles/#842576">Ссылка на фрагмент стороннего сайта</a></li>
+            <li><img src="image/Безымянный.png" usemap="#rect" class="map"></li>
+            <li><a href="">Ссылка с пустым href</a></li>
+            <li><a>Ссылка без href</a></li>
+            <li><a href="#" rel="nofollow">Ссылка по которой запрещен переход поисковикам</a></li>
+            <noindex><li><a href="#">Ссылка запрещенная для индексации поисковиками</a></li></noindex>
+        </ul>
+        <h1 class="spisok">Пронумерованный список ссылок:</h1>
+        <ol>
+            <li><a href="#" title="1">Первая</a></li>
+            <li><a href="#" title="2">Вторая</a></li>
+            <li><a href="#" title="3">Третья</a></li>
+            <li><a href="#" title="4">Четвертая</a></li>
+            <li><a href="#" title="5">Пятая</a></li>
+            <li><a href="#" title="6">Шестая</a></li>
+            <li><a href="#" title="7">Седьмая</a></li>
+            <li><a href="#" title="8">Восьмая</a></li>
+            <li><a href="#" title="9">Девятая</a></li>
+            <li><a href="#" title="10">Десятая</a></li>
+        </ol>
+        <ul>
+            <li><a href="ftp://jess12:bosox67@ftp.xyz.com" id="last_one">ftp ссылка</a></li>
+        </ul>
+        </div>
+        
+    
+        <div class="forma">
+            <h1>Форма</h1>
+            <form action="index.html" method="post">
+                <input type="text" name="name" placeholder="ФИО">
+                <input type="tel" name="tel" placeholder="Номер телефона">
+                <input type="email" name="email" placeholder="Email">
+                <p>Дата рождения:</p>
+                <input type="date" name="birth">
+                <p>Пол</p>
+                <div class="sex">
+                    <label for="male">Муж.<input type="radio" id="male" name="sex" value="male">
+                    </label>
+    
+                    <label for="female">Жен.<input type="radio" id="female" name="sex" value="female">
+                    </label>
+                    
+                </div>
+                <p>Любимый язык программирования:</p>
+                <select id="prog" multiple name="lang[]">
+                    <option value="Pascal">Pascal</option>
+                    <option value="C">C</option>
+                    <option value="C++">C++</option>
+                    <option value="JavaScript">JavaScript</option>
+                    <option value="PHP">PHP</option>
+                    <option value="Python">Python</option>
+                    <option value="Java">Java</option>
+                    <option value="Haskel">Haskel</option>
+                    <option value="Clojure">Clojure</option>
+                    <option value="Prolog">Prolog</option>
+                    <option value="Scala">Scala</option>
+                </select>
+    
+                <textarea name="bio" id="bio">Биография</textarea>
+                <div class="checkbox">
+                    <label for="yes"><input type="checkbox">С контрактом ознакомлен(а)</label>
+                </div>
+                <input class="button" type="submit" value="Отправить">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="padval">
+            <p>(с) Анков Мирослав Александрович</p>
+        </div>
+    </footer>
+</body>
+</html>

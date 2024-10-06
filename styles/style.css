@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: Montserrat;
+    justify-content: center;
+}
+
+header
+{
+    display: flex;
+    width: 100%;
+    background-color: #eeee22;
+    gap: 20px;
+    border-bottom: 2px solid black;
+    overflow: hidden;
+}
+
+main
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.logoimg
+{
+    width: 50px;
+    margin-left: 20px;
+    padding-top: 5px;
+}
+
+#image
+{
+    width: 450px;
+}
+nav
+{
+    display: flex;
+    background-color: #eeee22;
+    border-bottom: 2px solid black;
+}
+
+nav ul
+{
+    display: flex;
+    flex-direction: column;
+}
+
+nav ul a
+{
+    color: #45a247;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all ease-in-out .3s;
+}
+
+nav ul a:hover
+{
+    color: #283c86;
+}
+
+table
+{
+    margin: 20px 20px;
+    width: 90%;
+    border: 1px solid black;
+}
+
+th
+{
+    border: 1px solid black;
+    font-weight: 700;
+    font-size: 10px;
+    padding: 0 1px;
+}
+
+td
+{
+    border: 1px solid black;
+    font-weight: 700;
+    font-size: 10px;
+    text-align: center;
+}
+
+.ch
+{
+    background-color: #eeee22;
+}
+
+.nch
+{
+    background-color: #45a247;
+}
+
+.link-container
+{
+    margin: 0 auto;
+}
+
+.spisok
+{
+    font-size: 28px;
+    margin-left: 20px;
+    max-width: 350px;
+}
+
+li
+{
+    max-width: 310px;
+}
+
+li a
+{
+    color: #45a247;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all ease-in-out .3s;
+}
+
+li a:hover
+{
+    color: #283c86;
+}
+
+#image
+{
+    max-width: 300px;
+}
+
+.map
+{
+    max-width: 300px;
+}
+
+form
+{
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    gap: 25px;
+}
+
+input
+{
+    height: 45px;
+    border-radius: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.forma
+{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    max-width: 360px;
+    width: 100%;
+    background: linear-gradient(to right, #283c86, #45a247);
+    border-radius: 6px;
+    padding-bottom: 20px;
+    margin-left: 10px;
+}
+
+.forma h1
+{
+     align-self: center;
+}
+
+.forma form
+{
+    align-self: center;
+    max-width: 350px;
+    width: 100%;
+}
+
+.forma label
+{
+    display: flex;
+    align-items: center;
+    margin-right: 500px;
+}
+
+.forma input
+{
+    max-width: 300px;
+    width: 100%;
+    align-self: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+}
+
+.sex
+{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.sex input
+{
+    width: 50px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.forma select, textarea
+{
+    height: 70px;
+    border-radius: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 300px;
+    width: 100%;
+    align-self: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+}
+
+.checkbox input
+{
+    margin-right: 30px;
+}
+
+.button
+{
+    cursor: pointer;
+}
+
+.button:hover
+{
+    border: 3px solid rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.55);
+}
+
+footer
+{
+    height: 250px;
+    width: 100%;
+    background-color: #45a247;
+    margin-top: 150px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.padval
+{
+    padding-left: 10px;
+}
+
+.link-container
+{
+    display: flex;
+    flex-direction: column;
+}
+
+/* sosi hui alina shluha tvoi rot ebal uebishe mraz nedadelanaya */
+
+@media (min-width: 800px)
+{
+    table
+    {
+        order: 1;
+    }
+
+    .forma
+    {
+        order: 2;
+    }
+    th
+    {
+        border: 1px solid black;
+        font-weight: 700;
+        font-size: 1.95vw;
+        padding: 0 1px;
+    }
+
+    td
+    {
+        border: 1px solid black;
+        font-weight: 700;
+        font-size: 1.95vw;
+    }
+
+    .spisok
+    {
+        font-size: 3.41vw;
+        margin-left: 20px;
+        max-width: 700px;
+    }
+
+    li
+    {
+        max-width: 700px;
+        font-size: 1.2vw;
+    }
+
+    li a
+    {
+        font-size: 1.2vw;
+    }
+
+    .forma
+    {
+        max-width: 700px;
+    }
+}
