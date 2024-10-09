@@ -36,6 +36,7 @@ main
     width: 50px;
     margin-left: 20px;
     padding-top: 5px;
+    max-height:60px;
 }
 
 #image
