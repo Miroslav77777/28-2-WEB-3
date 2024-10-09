@@ -17,6 +17,7 @@ header
     gap: 20px;
     border-bottom: 2px solid black;
     overflow: hidden;
+    max-height: 90px;
 }
 
 main
