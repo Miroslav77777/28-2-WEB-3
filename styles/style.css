@@ -25,6 +25,12 @@ main
     flex-direction: column;
 }
 
+.logo
+{
+    display: flex;
+    gap: 10px;
+}
+
 .logoimg
 {
     width: 50px;
@@ -36,20 +42,20 @@ main
 {
     width: 450px;
 }
-nav
+.mobile
 {
     display: flex;
     background-color: #eeee22;
     border-bottom: 2px solid black;
 }
 
-nav ul
+.mobile ul
 {
     display: flex;
     flex-direction: column;
 }
 
-nav ul a
+.mobile ul a
 {
     color: #45a247;
     font-weight: 600;
@@ -57,9 +63,14 @@ nav ul a
     transition: all ease-in-out .3s;
 }
 
-nav ul a:hover
+.mobile ul a:hover
 {
     color: #283c86;
+}
+
+.desktop
+{
+    visibility: hidden;
 }
 
 table
@@ -263,6 +274,8 @@ footer
     table
     {
         order: 1;
+        max-width: 960px;
+        margin: 5px auto;
     }
 
     .forma
@@ -306,4 +319,39 @@ footer
     {
         max-width: 700px;
     }
+    .mobile{
+        visibility: hidden;
+    }
+
+    .desktop{
+        visibility: inherit;
+        padding-top: 0;
+    }
+
+    .desktop ul
+    {
+        display: flex;
+        gap: 10px;
+        background-color: #45a247;
+        margin-top: 0;
+        padding-right: 30px;
+    }
+
+    .desktop ul a
+    {
+        color: #121318;
+        font-weight: 600;
+        text-decoration: none;
+        transition: all ease-in-out .3s;
+    }
+
+    .desktop ul a:hover
+    {
+        color: #283c86;
+    }
+
+    header{
+        justify-content: space-between;
+    }
+
 }
